@@ -1,6 +1,8 @@
 package com.example.btth2_1giaodien;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,23 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    //bộ lắng nghe và xử lý
+    public void XuLyCong(View view  ){
+        EditText XuLyA = findViewById(R.id.edita);
+        EditText XuLyB = findViewById(R.id.editb);
+        EditText XuLyKq = findViewById(R.id.editKQ);
+    //lấy dữ liệu
+       String strA = XuLyA.getText().toString();
+       String strB = XuLyB.getText().toString();
+
+       //chuyển dũ liệu sang dạng số
+        int soA = Integer.parseInt(strA);
+        int soB= Integer.parseInt(strB);
+
+       int tong = soA + soB;
+        String StrTong = String.valueOf(tong);
+        XuLyKq.setText(StrTong);
     }
 }
