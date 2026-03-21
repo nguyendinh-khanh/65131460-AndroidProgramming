@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-    //bộ lắng nghe và xử lý
+
     public void XuLyCong(View view  ){
         EditText XuLyA = findViewById(R.id.edita);
         EditText XuLyB = findViewById(R.id.editb);
