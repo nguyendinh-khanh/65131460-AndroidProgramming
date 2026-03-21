@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    //xử lý cộng
+    
     void XuLyCong(){
         String So1 = editTexso1.getText().toString();
         String So2 = editTexso2.getText().toString();
