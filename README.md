@@ -1,45 +1,72 @@
-# Lập Trình Thiết Bị Di Động - Nguyễn Đình Khánh
+# Lập Trình Thiết Bị Di Động - **nguyendinh-khanh** - [Nhập Mã SV của bạn]
 
-📌 **Mô tả:** Đây là kho lưu trữ mã nguồn các bài tập thực hành môn Lập trình Android (Java) của tôi trong quá trình học tập.
+📌 **Mô tả:** Đây là kho lưu trữ mã nguồn các bài tập thực hành môn Lập trình Android (Java) của tôi.
 
-### 🛠 Yêu cầu hệ thống:
-* Android Studio (Bản mới nhất)
-* Java (JDK 11+)
+### 🛠 Yêu cầu hệ thống (Install prerequisites):
+---
+* **Android Studio** (Hedgehog or newer recommended)
+* **Android 7.0 (Nougat API 24)** or higher
+* **Java SE Development Kit (JDK 11)**
 
 ---
 
-## 📂 Danh sách bài tập
+## 📂 Kho lưu trữ bài tập thực hành (Practice Assignments)
 
-* **Bài 1: Hello World** | [Xem code](./HelloWorld)
-  * *Mô tả:* Ứng dụng làm quen với giao diện Android cơ bản đầu tiên.
-
-* **Bài 2: Giao diện cơ bản** | [Xem code](./BTTH2_1GiaoDien)
-  * *Mô tả:* Thực hành thiết kế các View cơ bản trên màn hình.
-
-* **Bài 3: Linear Layout** | [Xem code](./BTTH3)
-  * *Mô tả:* Làm quen với việc sắp xếp các thành phần giao diện theo chiều dọc và ngang bằng LinearLayout.
-
-* **Bài 4: Tính tổng 2 số (Giao diện)** | [Xem code](./BTTH4_LinearLayout_Tong2So)
-  * *Mô tả:* Thiết kế giao diện cho ứng dụng tính toán cơ bản.
-
-* **Bài 5: Xử lý sự kiện (Máy tính cơ bản)** | [Xem code](./BaiTH5_XuLySuKien1)
-  * *Mô tả:* Gắn bộ lắng nghe sự kiện (`setOnClickListener`) để thực hiện các phép toán Cộng/Trừ/Nhân/Chia.
-
-* **Bài 6: Xử lý sự kiện (Tính tổng)** | [Xem code](./BaiTH6_XuLySuKien_TinhTong)
-  * *Mô tả:* Áp dụng logic bắt sự kiện vào bài toán tính tổng hai số nhập từ bàn phím.
-
-* **Bài 7: Sử dụng ListView** | [Xem code](./BaiTH7_ListView)
-  * *Mô tả:* Hiển thị danh sách dữ liệu cơ bản (Tên món ăn) sử dụng `ListView` và bắt sự kiện khi click vào từng dòng.
-
-* **Bài 8: Tùy chỉnh ListView (Menu Nhà Hàng)** | [Xem code](./BaiTH8_TuyChinhLV)
-  * *Mô tả:* Tùy biến (`Custom ListView`) để hiển thị danh sách món ăn chuyên nghiệp hơn kèm theo hình ảnh, mô tả và giá tiền.
-
-* **Bài 9: Sử dụng RecyclerView (Công Trình Kiến Trúc)** | [Xem code](./BaiTH9_Recyclerview)
-  * *Mô tả:* Sử dụng `RecyclerView` kết hợp `ViewHolder` để hiển thị danh sách các công trình nổi tiếng thế giới một cách tối ưu.
+### HelloWorld
+[Chi tiết code](./HelloWorld) | Ảnh minh họa: ![HelloWorld Screenshot](./Images/helloworld.png)
+*Ứng dụng Android đầu tiên hiển thị thông điệp "Hello World!".*
 
 ---
 
-## 🚀 Hướng dẫn chạy dự án
-1. Clone repository này về máy tính của bạn.
-2. Mở **Android Studio** > Chọn **Open** > Dẫn đến thư mục của bài tập cụ thể mà bạn muốn chạy (Ví dụ: `BaiTH9_Recyclerview`).
-3. Chờ Gradle đồng bộ xong và nhấn nút **Run** (Shift + F10) để chạy ứng dụng trên máy ảo hoặc thiết bị thật.
+### BTTH2: Thiết kế Giao diện (BTTH2_1GiaoDien)
+[Chi tiết code](./BTTH2_1GiaoDien) | Ảnh minh họa: ![BTTH2 Screenshot](./Images/btth2.png)
+*Thực hành thiết kế giao diện đơn giản trên Android.*
+
+---
+
+### BTTH3: LinearLayout (BTTH3)
+[Chi tiết code](./BTTH3) | Ảnh minh họa: ![BTTH3 Screenshot](./Images/btth3.png)
+*Thực hành thiết kế giao diện sử dụng LinearLayout với các thuộc tính cơ bản.*
+
+---
+
+### BTTH4: Tính Tổng 2 Số (BTTH4_LinearLayout_Tong2So)
+[Chi tiết code](./BTTH4_LinearLayout_Tong2So) | Ảnh minh họa: ![BTTH4 Screenshot](./Images/btth4.png)
+*Ứng dụng nhập hai số và hiển thị kết quả tổng của chúng.*
+
+---
+
+### BaiTH5: Xử Lý Sự Kiện (BaiTH5_XuLySuKien1)
+[Chi tiết code](./BaiTH5_XuLySuKien1) | Ảnh minh họa: ![BaiTH5 Screenshot](./Images/btth5.png)
+*Tìm hiểu và thực hành các cách xử lý sự kiện trong Android.*
+
+---
+
+### BaiTH6: Xử Lý Sự Kiện Tính Tổng (BaiTH6_XuLySuKien_TinhTong)
+[Chi tiết code](./BaiTH6_XuLySuKien_TinhTong) | Ảnh minh họa: ![BaiTH6 Screenshot](./Images/btth6.png)
+*Thực hành kết hợp xử lý sự kiện để tính toán trên Android.*
+
+---
+
+### BaiTH7: Sử Dụng ListView (BaiTH7_ListView)
+[Chi tiết code](./BaiTH7_ListView) | Ảnh minh họa: ![BaiTH7 Screenshot](./Images/btth7.png)
+*Hiển thị danh sách dữ liệu cơ bản bằng ListView.*
+
+---
+
+### BaiTH8: ListView Tùy Chỉnh (BaiTH8_TuyChinhLV)
+[Chi tiết code](./BaiTH8_TuyChinhLV) | Ảnh minh họa: ![BaiTH8 Screenshot](./Images/btth8.png)
+*Tùy biến giao diện ListView hiển thị danh sách phức tạp hơn.*
+
+---
+
+### BaiTH9: Sử Dụng RecyclerView (BaiTH9_Recyclerview)
+[Chi tiết code](./BaiTH9_Recyclerview) | Ảnh minh họa: ![BaiTH9 Screenshot](./Images/btth9.png)
+*Hiển thị danh sách dữ liệu tối ưu và linh hoạt hơn với RecyclerView.*
+
+---
+
+## 🚀 Hướng dẫn sử dụng
+1. Mở **Android Studio**.
+2. Chọn **Open** và dẫn đến thư mục của từng bài tập cụ thể.
+3. Chờ Gradle đồng bộ và nhấn **Run** để chạy trên thiết bị máy ảo hoặc điện thoại thật.

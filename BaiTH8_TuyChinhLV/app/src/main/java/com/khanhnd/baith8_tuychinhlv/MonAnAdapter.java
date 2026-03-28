@@ -62,7 +62,7 @@ public class MonAnAdapter extends BaseAdapter {
 
         //Set lên
         textView_TenMon.setText(monAnHienTai.getTenMonAn());
-        textView_DonGia.setText(String.valueOf(monAnHienTai.getDonGia()));
+        textView_DonGia.setText(String.valueOf(monAnHienTai.getDonGia()+" đ"));
         textView_MoTa.setText(monAnHienTai.getMoTa());
         imageView_AnhDaiDien.setImageResource(monAnHienTai.getIdAnhMinhHoa());
 
