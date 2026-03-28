@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_height="90dp"
+    android:padding="1dp"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imDaiDien"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@color/black"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#F4C377">
+
+        
+        <TextView
+            android:id="@+id/tvSanPham"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Món Thứ Nhất">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvDonGia"
+            android:textStyle="italic"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="2000">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvMoTa"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Mô tả sản phẩm">
+
+        </TextView>
+        
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
