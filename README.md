@@ -4,6 +4,13 @@
 
 ##  Kho lưu trữ bài tập thực hành 
 
+### BTTH: Xây Dựng Ứng Dụng Đọc Báo Tổng Hợp
+[Chi tiết code](./UD_DocBao/app/src/main/) | Ảnh minh họa:
+<br><img src="./img/btth10.png" alt="BTTH4 Screenshot" width="350">
+<br>*Ứng dụng đọc báo trực tuyến từ nguồn RSS (VnExpress), kết hợp RecyclerView.*
+
+---
+
 ### BaiTH9: Sử Dụng RecyclerView (BaiTH9_Recyclerview)
 [Chi tiết code](./BaiTH9_Recyclerview/app/src/main/) | Ảnh minh họa:
 <table>
