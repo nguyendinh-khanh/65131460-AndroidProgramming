@@ -3,10 +3,21 @@
  **Mô tả:** Đây là kho lưu trữ mã nguồn các bài tập thực hành Lập trình Android (Java) của tôi.
 
 ##  Kho lưu trữ bài tập thực hành 
+### BaiTH10: Sử Dụng Intent chuyển trang (BaiTH10_ChuyenTrangIntent)
+[Chi tiết code](./BaiTH9_Recyclerview/app/src/main/) | Ảnh minh họa:
+<table>
+  <tr>
+    <td align="center"><img src="./img/btth10_1.png" alt="" width="250"></td>
+    <td align="center"><img src="./img/btth10_2.png" alt="2" width="250"></td
+  </tr>
+</table>
+<br>*Chuyển trang dùng Button gắn onclick Intent*
+
+---
 
 ### BTTH: Xây Dựng Ứng Dụng Đọc Báo Tổng Hợp
 [Chi tiết code](./UD_DocBao/app/src/main/) | Ảnh minh họa:
-<br><img src="./img/btth10.png" alt="BTTH4 Screenshot" width="350">
+<br><img src="./img/btth.png" alt="" width="350">
 <br>*Ứng dụng đọc báo trực tuyến từ nguồn RSS (VnExpress), kết hợp RecyclerView.*
 
 ---
