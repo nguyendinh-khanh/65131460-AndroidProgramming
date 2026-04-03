@@ -3,8 +3,15 @@
  **Mô tả:** Đây là kho lưu trữ mã nguồn các bài tập thực hành Lập trình Android (Java) của tôi.
 
 ##  Kho lưu trữ bài tập thực hành 
+### BaiTH11: Fragment Tĩnh (BaiTH11FragmentTinh)
+[Chi tiết code](./BaiTH11FragmentTinh/app/src/main/) | Ảnh minh họa:
+<br><img src="./img/btth11.png" alt="" width="350">
+<br>*Fragment tĩnh Footer và Content dùng FragmentContainerView*
+
+---
+
 ### BaiTH10: Sử Dụng Intent chuyển trang (BaiTH10_ChuyenTrangIntent)
-[Chi tiết code](./BaiTH9_Recyclerview/app/src/main/) | Ảnh minh họa:
+[Chi tiết code](./BaiTH10_ChuyenTrangIntent/app/src/main/) | Ảnh minh họa:
 <table>
   <tr>
     <td align="center"><img src="./img/btth10_1.png" alt="" width="250"></td>
