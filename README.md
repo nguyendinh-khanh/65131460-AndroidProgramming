@@ -14,8 +14,8 @@
 [Chi tiết code](./BaiTH10_ChuyenTrangIntent/app/src/main/) | Ảnh minh họa:
 <table>
   <tr>
-    <td align="center"><img src="./img/btth10_1.png" alt="" width="250"></td>
-    <td align="center"><img src="./img/btth10_2.png" alt="2" width="250"></td
+    <td align="center"><img src="./img/btth10_1.png" alt="" width="300"></td>
+    <td align="center"><img src="./img/btth10_2.png" alt="2" width="300"></td
   </tr>
 </table>
 <br>*Chuyển trang dùng Button gắn onclick Intent*
